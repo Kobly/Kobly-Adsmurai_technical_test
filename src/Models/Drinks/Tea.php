@@ -10,7 +10,6 @@ class Tea implements iDrink
 {
     private string $name    = 'tea';
     private float $cost     = 0.4;
-    private int $maxSugar   = 2;
     private int $sugars;
     private bool $extraHot;
 
@@ -20,22 +19,22 @@ class Tea implements iDrink
         $this->extraHot = $extraHot;
     }
 
-    public function getName()
+    public function getName() : string
     {
         return $this->name;
     }
 
-    public function getCost()
+    public function getCost() : float
     {
         return $this->cost;
     }
 
-    public function getSugars()
+    public function getSugars() : int
     {
         return $this->sugars;
     }
 
-    public function getExtraHot()
+    public function getExtraHot() : bool
     {
         return $this->extraHot;
     }

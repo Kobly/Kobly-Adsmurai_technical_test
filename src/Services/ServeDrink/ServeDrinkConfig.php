@@ -18,7 +18,7 @@ class ServeDrinkConfig
      */
     private $money;
 
-    public function __construct(iDrink $drinkModel,float $money)
+    public function __construct(iDrink $drinkModel, float $money)
     {
         $this->drinkModel = $drinkModel;
         $this->money = $money;

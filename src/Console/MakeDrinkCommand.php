@@ -2,9 +2,7 @@
 
 namespace Adsmurai\CoffeeMachine\Console;
 
-use Adsmurai\CoffeeMachine\Controllers\BenefitsController;
 use Adsmurai\CoffeeMachine\Controllers\DrinkController;
-use Adsmurai\CoffeeMachine\Models\Drinks\DrinkFactory;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

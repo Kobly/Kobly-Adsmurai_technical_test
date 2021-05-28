@@ -23,8 +23,7 @@ class DrinkController
                 $response = $this->generateTextErrorDrinkName($drinkFactory);
             }
         } catch (\Exception $e){
-            printf('error parametros');
-            $response = 'error parametros';
+            printf('Something has wrong');
         }
 
 

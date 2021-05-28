@@ -20,22 +20,22 @@ class Chocolate implements iDrink
         $this->extraHot = $extraHot;
     }
 
-    public function getName()
+    public function getName() : string
     {
         return $this->name;
     }
 
-    public function getCost()
+    public function getCost() : float
     {
         return $this->cost;
     }
 
-    public function getSugars()
+    public function getSugars() : int
     {
         return $this->sugars;
     }
 
-    public function getExtraHot()
+    public function getExtraHot() : bool
     {
         return $this->extraHot;
     }
