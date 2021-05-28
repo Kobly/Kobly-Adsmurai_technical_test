@@ -4,11 +4,12 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-use Adsmurai\CoffeeMachine\Console\MakeDrinkCommand;
+use Adsmurai\CoffeeMachine\Console;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-$application->add(new MakeDrinkCommand());
+$application->add(new Console\MakeDrinkCommand());
+$application->add(new Console\GetBenefitsCommand());
 
 $application->run();

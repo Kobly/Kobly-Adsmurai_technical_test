@@ -7,7 +7,6 @@ Coffee Machine is an awesome console application that from a few input parameter
 Command
 ```
 app:order-drink 
-
 ```
 
 Arguments
@@ -57,6 +56,15 @@ You have ordered a coffee with 2 sugars (stick included).
 ```
 You have ordered a coffee extra hot with 2 sugars (stick included)    
 ```
+
+## Benefits
+
+Command
+```
+app:get-benefits
+```
+
+This command shows a total of the benefits obtained.
 
 ## Current status
 
