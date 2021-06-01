@@ -1,6 +1,6 @@
 <?php
 
-namespace Adsmurai\CoffeeMachine\Tests\Integration\Console;
+namespace Adsmurai\CoffeeMachine\Tests\Unit\Console;
 
 use Adsmurai\CoffeeMachine\Models\Drinks\DrinkFactory;
 use Adsmurai\CoffeeMachine\Services\ServeDrink\ServeDrinkConfig;
