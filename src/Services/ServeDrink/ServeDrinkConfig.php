@@ -8,14 +8,10 @@ use Adsmurai\CoffeeMachine\Interfaces\iDrink;
 
 class ServeDrinkConfig
 {
-    /**
-     * @var iDrink
-     */
+    /** @var iDrink */
     private $drinkModel;
 
-    /**
-     * @var float
-     */
+    /** @var float */
     private $money;
 
     public function __construct(iDrink $drinkModel, float $money)

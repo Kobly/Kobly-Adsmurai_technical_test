@@ -7,9 +7,7 @@ use Adsmurai\CoffeeMachine\Interfaces\iDrink;
 
 class SaveDrinkInfoConfig
 {
-    /**
-     * @var iDrink
-     */
+    /** @var iDrink */
     private $drinkModel;
 
     public function __construct(iDrink $drinkModel)

@@ -10,7 +10,6 @@ class Coffee implements iDrink
 {
     private string $name    = 'coffee';
     private float $cost     = 0.5;
-    private int $maxSugar   = 2;
     private int $sugars;
     private bool $extraHot;
 

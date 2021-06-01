@@ -26,7 +26,6 @@ class DrinkController
             printf('Something has wrong');
         }
 
-
         return $response;
     }
 

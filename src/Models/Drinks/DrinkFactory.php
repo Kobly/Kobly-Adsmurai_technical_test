@@ -2,11 +2,13 @@
 
 namespace Adsmurai\CoffeeMachine\Models\Drinks;
 
+use Adsmurai\CoffeeMachine\Interfaces\iDrink;
+
 class DrinkFactory
 {
-    private $typeOfDrinks = ['chocolate', 'coffee', 'tea'];
+    private array $typeOfDrinks = ['chocolate', 'coffee', 'tea'];
 
-    public function create($className, int $sugars, bool $extraHot)
+    public function create($className, int $sugars, bool $extraHot) : ?iDrink
     {
         $class = null;
 
@@ -22,6 +24,4 @@ class DrinkFactory
     {
         return $this->typeOfDrinks;
     }
-
-
 }

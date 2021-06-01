@@ -11,9 +11,7 @@ class ServeDrinkService
 {
     const MAX_SUGARS = 2;
 
-    /**
-     * @var ServeDrinkConfig
-     */
+    /** @var ServeDrinkConfig */
     private $serveDrinkConfig;
 
     public function __construct(ServeDrinkConfig $serveDrinkConfig)

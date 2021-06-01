@@ -8,9 +8,7 @@ use Adsmurai\CoffeeMachine\Console\MysqlPdoClient;
 
 class SaveDrinkInfoService
 {
-    /**
-     * @var SaveDrinkInfoConfig
-     */
+    /**v@var SaveDrinkInfoConfig */
     private $saveDrinkInfoConfig;
 
     public function __construct(SaveDrinkInfoConfig $saveDrinkInfoConfig)
